@@ -14,27 +14,49 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 ## TO DO
 ✅ Estructura mono-repo básica
+
 ✅ Últimas versiones de paquetes para Ionic 5.5 + Angular 11.1,
+
 ✅ Reglas básicas del Linter,
+
 ✅ Reglas básicas del Prettier,
+
 ✅ Firebase integrado,
+
 ✅ Configuración básica de Firebase,
+
 ✅ Configuración básica de Docker,
+
 ✅ Archivos Specs de Angular como sintaxis legada, actualizada con buenas prácticas,
+
 ✅ Script para ejecución de HMR,
+
 🔲 State Management (AKITA, obviamente 😇),
+
 🔲 Scripts de compilación para plataformas Android y iOS,
+
 🔲 Scripts de generación de certificado Android,
+
 🔲 Scripts de ejecución para plataformas Android y iOS,
+
 🔲 Scripts para configuración de plataformas,
-🔲 Scripts para revisión de estilos y análisis de archivos TS
+
+🔲 Scripts para revisión de estilos y análisis de archivos TS,
+
 🔲 Archivos "environment" extendidos para todos (/dev /qa /prod), incluyendo valores por defecto de firebase y/o amazon web services,
+
 🔲 Incluir helpers para SCSS,
+
 🔲 Incluir utilidades comunes de Javascript basado en helpers y servicios,
+
 🔲 Login Page base,
+
 🔲 Autenticación incluida con JWT,
+
 🔲 Lógica de sesión base en interceptores,
+
 🔲 Control de autenticación y autorización,
+
 🔲 Integrar NX para cumplir con el concepto arquitectónico mono-repositorio completo.
 
 
