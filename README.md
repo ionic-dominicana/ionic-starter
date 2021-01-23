@@ -1,5 +1,5 @@
 
-# Ionic Starter por @ionic-dominicana 🈁
+# Ionic Starter por @ionic-dominicana 🌴💚🈁
 
 # ⚡️ Cross-Platform Apps con JS/Web para 🇩🇴 con 💪 ⚡️
 
@@ -8,6 +8,7 @@ Este baseline de Ionic supone que ya puede lanzar proyectos móviles con todos l
 ![enter image description here](https://public.3.basecamp.com/p/g1pxMuc4YZKY23UBbjqMQxRT/upload/download/Ionic-and-Own-Logo_Wallpaper-by-IonicDominicana.jpg)
 
 Antes que nada, échese una miradilla táctica con Capacitor Platform:
+
 ✅ [The Native Bridge for Cross-Platform Web Apps](https://capacitor.ionicframework.com/)
 
 Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Optimizado para Aplicaciones de Ionic Framework como esta, o uso con cualquier framework de aplicación web. ;) ¡Eso es Capacitor! Y como dicen en las películas de los 90s: "Esto apenas es el principio del fin". 😎
