@@ -60,6 +60,11 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 🔲 Integrar NX para cumplir con el concepto arquitectónico mono-repositorio completo.
 
 
+💖 **Estado actual del UI:** 💖
+![enter image description here](https://public.3.basecamp.com/p/jAYjwFbKJFFWuT9XcwiwwVxW/upload/download/current-ui-app.png)
+
+
+
 ## Supports
 
 ![Capacitor Supports][capacitor-support]
