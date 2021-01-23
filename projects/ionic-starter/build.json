@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "",
+            "storePassword": "android",
+            "alias": "",
+            "password" : "",
+            "keystoreType": ""
+        },
+        "release": {
+            "keystore": "ionicstarter-keystore.jks",
+            "storePassword": "ionicstarter2020",
+            "alias": "ionicstarter-keystore",
+            "password" : "ionicstarter2020",
+            "keystoreType": ""
+        }
+    }
+}

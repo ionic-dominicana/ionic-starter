@@ -1,0 +1,18 @@
+{
+  "targets": {
+    "ionic-starter": {
+      "hosting": {
+        "ionic-starter-mobile": [
+          "ionic-starter"
+        ]
+      }
+    },
+    "ionic-starter": {
+      "hosting": {
+        "app": [
+          "ionic-starter-mobile"
+        ]
+      }
+    }
+  }
+}
