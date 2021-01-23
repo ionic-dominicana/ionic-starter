@@ -1,0 +1,61 @@
+{
+    "extends": "tslint:recommended",
+    "rulesDirectory": ["codelyzer"],
+    "rules": {
+        "array-type": false,
+        "arrow-parens": false,
+        "deprecation": {
+            "severity": "warn"
+        },
+        "import-blacklist": [true, "rxjs/Rx"],
+        "interface-name": false,
+        "max-classes-per-file": false,
+        "max-line-length": [true, 200],
+        "member-access": false,
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "static-field",
+                    "instance-field",
+                    "static-method",
+                    "instance-method"
+                ]
+            }
+        ],
+        "no-consecutive-blank-lines": false,
+        "no-console": [true, "debug", "time", "timeEnd", "trace"],
+        "no-empty": false,
+        "no-inferrable-types": [false, "ignore-params"],
+        "typedef": [ true, "call-signature", "property-declaration"],
+        "no-non-null-assertion": true,
+        "no-redundant-jsdoc": true,
+        "no-switch-case-fall-through": true,
+        "no-var-requires": false,
+        "object-literal-key-quotes": [true, "as-needed"],
+        "object-literal-sort-keys": false,
+        "ordered-imports": false,
+        "quotemark": [true, "double"],
+        "trailing-comma": false,
+        "no-output-on-prefix": true,
+        "no-inputs-metadata-property": true,
+        "no-host-metadata-property": true,
+        "no-input-rename": true,
+        "no-output-rename": true,
+        "use-lifecycle-interface": true,
+        "use-pipe-transform-interface": true,
+        "one-variable-per-declaration": false,
+        "component-class-suffix": [true, "Component", "Page"],
+        "directive-class-suffix": true,
+        "directive-selector": [true, "attribute", "app", "camelCase"],
+        "component-selector": [true, "element", "app", "kebab-case"],
+        "contextual-lifecycle": true,
+        "no-conflicting-lifecycle": true,
+        "no-output-native": true,
+        "no-outputs-metadata-property": true,
+        "template-banana-in-box": true,
+        "template-no-negated-async": true,
+        "indent": [true, "spaces", 4],
+        "variable-name": false
+    }
+}

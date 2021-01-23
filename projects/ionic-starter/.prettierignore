@@ -1,0 +1,9 @@
+# Add files here to ignore them from prettier formatting
+
+/dist
+/coverage
+
+**/xplat/*/.xplatframework
+
+# custom files
+*.html
