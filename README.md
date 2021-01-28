@@ -34,7 +34,7 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 ✅ State Management (AKITA, obviamente 😇),
 
-✅ Archivos "environment" extendidos para todos (/dev /qa /prod), incluyendo valores por defecto de firebase y/o amazon web services,
+✅ Archivos "environment" extendidos para todos (/dev /qa /prod), incluyendo valores por defecto de firebase,
 
 🔲 Scripts de compilación para plataformas Android y iOS,
 
