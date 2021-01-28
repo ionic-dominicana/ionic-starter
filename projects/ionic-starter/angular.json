@@ -181,7 +181,7 @@
   },
   "cli": {
     "analytics": "891e7522-67dc-4f7e-a05c-24c37f064daf",
-    "defaultCollection": "@ionic/angular-toolkit"
+    "defaultCollection": "@datorama/akita"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
