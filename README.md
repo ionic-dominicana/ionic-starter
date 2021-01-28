@@ -32,7 +32,9 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 ✅ Script para ejecución de HMR,
 
-🔲 State Management (AKITA, obviamente 😇),
+✅ State Management (AKITA, obviamente 😇),
+
+✅ Archivos "environment" extendidos para todos (/dev /qa /prod), incluyendo valores por defecto de firebase y/o amazon web services,
 
 🔲 Scripts de compilación para plataformas Android y iOS,
 
@@ -43,8 +45,6 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 🔲 Scripts para configuración de plataformas,
 
 🔲 Scripts para revisión de estilos y análisis de archivos TS,
-
-🔲 Archivos "environment" extendidos para todos (/dev /qa /prod), incluyendo valores por defecto de firebase y/o amazon web services,
 
 🔲 Incluir helpers para SCSS,
 
