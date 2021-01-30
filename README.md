@@ -84,4 +84,4 @@ Contribuir para Ionic Dominicana puede implicar escribir TypeScript, Swift, Java
 
 
 
-Por favor, lea la guía [Contributing](.github/CONTRIBUTING.md) para obtener más información.
+Por favor, lea la guía [Contributing](CONTRIBUTING.md) para obtener más información.
