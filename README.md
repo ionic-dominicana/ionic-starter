@@ -36,15 +36,21 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 ✅ Archivos "environment" extendidos para todos (/dev /qa /prod), incluyendo valores por defecto de firebase,
 
-🔲 Scripts de compilación para plataformas Android y iOS,
+✅ Scripts de compilación para plataformas Android y iOS,
 
-🔲 Scripts de generación de certificado Android,
+✅ Scripts de generación de certificado Android,
 
-🔲 Scripts de ejecución para plataformas Android y iOS,
+✅ Scripts de ejecución para plataformas Android y iOS,
 
-🔲 Scripts para configuración de plataformas,
+✅ Scripts para configuración de plataformas,
 
-🔲 Scripts para revisión de estilos y análisis de archivos TS,
+✅ Scripts para revisión de estilos y análisis de archivos TS/ES,
+
+✅ ESLint integrado que reemplaza a TSLint en proyectos Angular
+
+✅ BONUS: Prettier formatter integrado para complementar a ESLint y habilitado cuando ejecute ESLint, limpiar su código o en su pipeline de CI
+
+✅ Archivos y configuraciones de fábrica (CLI) formateados y limpios con últimas reglas del ESLint/Prettier
 
 🔲 Incluir helpers para SCSS,
 
@@ -60,10 +66,48 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 🔲 Integrar NX para cumplir con el concepto arquitectónico mono-repositorio completo.
 
+## Getting Started
 
-💖 **Estado actual del UI:** 💖
-![enter image description here](https://public.3.basecamp.com/p/jAYjwFbKJFFWuT9XcwiwwVxW/upload/download/current-ui-app.png)
+### Instalar / Actualizar
 
+**✏️ Ejecutando la aplicación por primera vez:**
+
+1er) Paso (instalar todos los paquetes/dependencias de node.js):
+```
+npm install && npm install -g @ionic/cli@latest
+```
+
+2do) Paso (compilar en modo /development antes de ejecutar):
+```
+npm run build:mobile
+```
+
+3er) Paso (ejecutar la aplicación en el navegador en modo /development):
+```
+npm run build:mobile
+```
+
+4to) Ejecutar la aplicación en un dispositivo iOS:
+```
+npm run start:ios:live
+```
+
+Dispositivo Android:
+```
+npm run start:android:live
+```
+
+<p align="center">
+  💖 <strong>Estado actual del UI:</strong> 💖
+</p>
+
+<p align="center">
+  <img
+      alt="Captura principal de la applicación"
+      src="https://public.3.basecamp.com/p/jAYjwFbKJFFWuT9XcwiwwVxW/upload/download/current-ui-app.png"
+      width="auto"
+    />
+</p>
 
 
 ## Supports
@@ -84,4 +128,15 @@ Contribuir para Ionic Dominicana puede implicar escribir TypeScript, Swift, Java
 
 
 
-Por favor, lea la guía [Contributing](CONTRIBUTING.md) para obtener más información.
+Por favor, lea la guía [Contributing](.github/CONTRIBUTING.md) para obtener más información.
+
+
+<p align="center">
+  <a href="https://www.paypal.com/donate?hosted_button_id=KPRPTZZZH34BJ">
+    <img
+      alt="Dona con PayPal"
+      src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+      width="auto"
+    />
+  </a>
+</p>

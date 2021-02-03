@@ -14,7 +14,7 @@ import { TabsPage } from "./tabs.page";
 
 @NgModule({
     imports: [IonicModule, CommonModule, FormsModule, TabsPageRoutingModule],
-    declarations: [TabsPage]
+    declarations: [TabsPage],
 })
 export class TabsPageModule {
     constructor() {
