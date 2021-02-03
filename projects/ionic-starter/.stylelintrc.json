@@ -9,7 +9,9 @@
                 "ignoreAtRules": ["extend", "include", "mixin"]
             }
         ],
-        "comment-empty-line-before": "always",
+        "comment-empty-line-before": ["always", {
+            "except": ["first-nested"]
+        }],
         "custom-property-empty-line-before": ["never", {
                 "ignore": ["after-comment", "first-nested", "inside-single-line-block"]
             }
