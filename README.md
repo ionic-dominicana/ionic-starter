@@ -74,6 +74,7 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 1er) Paso (instalar todos los paquetes/dependencias de node.js):
 ```
+cd projects/ionic-starter
 npm install && npm install -g @ionic/cli@latest
 ```
 
@@ -84,7 +85,7 @@ npm run build:mobile
 
 3er) Paso (ejecutar la aplicación en el navegador en modo /development):
 ```
-npm run build:mobile
+npm run start:mobile
 ```
 
 4to) Ejecutar la aplicación en un dispositivo iOS:
