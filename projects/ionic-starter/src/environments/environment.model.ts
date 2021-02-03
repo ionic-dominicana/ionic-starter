@@ -6,6 +6,7 @@ export interface Environment {
     sessionName: string,
     CLIENT_ID: string,
     CLIENT_SECRET: string,
+    CLIENT_CERTIFICATE: string,
     COMMON_BASE_SERVER_PATH: string;
     COMMON_API_URL: string;
     COMMON_API_VERSION: string;
