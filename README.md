@@ -36,15 +36,21 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 ✅ Archivos "environment" extendidos para todos (/dev /qa /prod), incluyendo valores por defecto de firebase,
 
-🔲 Scripts de compilación para plataformas Android y iOS,
+✅ Scripts de compilación para plataformas Android y iOS,
 
-🔲 Scripts de generación de certificado Android,
+✅ Scripts de generación de certificado Android,
 
-🔲 Scripts de ejecución para plataformas Android y iOS,
+✅ Scripts de ejecución para plataformas Android y iOS,
 
-🔲 Scripts para configuración de plataformas,
+✅ Scripts para configuración de plataformas,
 
-🔲 Scripts para revisión de estilos y análisis de archivos TS,
+✅ Scripts para revisión de estilos y análisis de archivos TS/ES,
+
+✅ ESLint integrado que reemplaza a TSLint en proyectos Angular
+
+✅ BONUS: Prettier formatter integrado para complementar a ESLint y habilitado cuando ejecute ESLint, limpiar su código o en su pipeline de CI
+
+✅ Archivos y configuraciones de fábrica (CLI) formateados y limpios con últimas reglas del ESLint/Prettier
 
 🔲 Incluir helpers para SCSS,
 
@@ -62,6 +68,7 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 
 💖 **Estado actual del UI:** 💖
+
 ![enter image description here](https://public.3.basecamp.com/p/jAYjwFbKJFFWuT9XcwiwwVxW/upload/download/current-ui-app.png)
 
 
