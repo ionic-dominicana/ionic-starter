@@ -14,16 +14,21 @@ describe("Tab4Page", () => {
     let component: Tab4Page;
     let fixture: ComponentFixture<Tab4Page>;
 
-    beforeEach(waitForAsync(() => {
-        TestBed.configureTestingModule({
-            declarations: [Tab4Page],
-            imports: [IonicModule.forRoot(), ExploreContainerComponentModule],
-        }).compileComponents();
+    beforeEach(
+        waitForAsync(() => {
+            TestBed.configureTestingModule({
+                declarations: [Tab4Page],
+                imports: [
+                    IonicModule.forRoot(),
+                    ExploreContainerComponentModule,
+                ],
+            }).compileComponents();
 
-        fixture = TestBed.createComponent(Tab4Page);
-        component = fixture.componentInstance;
-        fixture.detectChanges();
-    }));
+            fixture = TestBed.createComponent(Tab4Page);
+            component = fixture.componentInstance;
+            fixture.detectChanges();
+        })
+    );
 
     it("should create", () => {
         expect(component).toBeTruthy();

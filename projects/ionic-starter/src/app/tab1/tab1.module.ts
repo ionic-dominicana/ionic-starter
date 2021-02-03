@@ -19,9 +19,9 @@ import { Tab1Page } from "./tab1.page";
         CommonModule,
         FormsModule,
         ExploreContainerComponentModule,
-        Tab1PageRoutingModule
+        Tab1PageRoutingModule,
     ],
-    declarations: [Tab1Page]
+    declarations: [Tab1Page],
 })
 export class Tab1PageModule {
     constructor() {

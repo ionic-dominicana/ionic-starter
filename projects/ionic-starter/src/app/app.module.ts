@@ -25,18 +25,26 @@ import { AppComponent } from "./app.component";
 @NgModule({
     declarations: [AppComponent],
     entryComponents: [],
-    imports: [BrowserModule,
+    imports: [
+        BrowserModule,
         IonicModule.forRoot(),
-        AppRoutingModule, environment.production ? [] : AkitaNgDevtools.forRoot(),
-        AkitaNgRouterStoreModule, ServiceWorkerModule.register("ngsw-worker.js", { enabled: environment.production })
+        AppRoutingModule,
+        environment.production ? [] : AkitaNgDevtools.forRoot(),
+        AkitaNgRouterStoreModule,
+        ServiceWorkerModule.register("ngsw-worker.js", {
+            enabled: environment.production,
+        }),
     ],
     providers: [
         StatusBar,
         SplashScreen,
         { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-        { provide: NG_ENTITY_SERVICE_CONFIG, useValue: { baseUrl: "https://jsonplaceholder.typicode.com" }}
+        {
+            provide: NG_ENTITY_SERVICE_CONFIG,
+            useValue: { baseUrl: "https://jsonplaceholder.typicode.com" },
+        },
     ],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
 })
 export class AppModule {
     constructor() {

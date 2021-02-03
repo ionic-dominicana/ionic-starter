@@ -16,10 +16,10 @@ const routes: Routes = [
 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
-    exports: [RouterModule]
+    exports: [RouterModule],
 })
 export class Tab3PageRoutingModule {
     constructor() {
-      // to do
+        // to do
     }
 }

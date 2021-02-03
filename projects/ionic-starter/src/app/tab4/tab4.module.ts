@@ -21,9 +21,9 @@ import { Tab4Page } from "./tab4.page";
         FormsModule,
         ExploreContainerComponentModule,
         RouterModule.forChild([{ path: "", component: Tab4Page }]),
-        Tab4PageRoutingModule
+        Tab4PageRoutingModule,
     ],
-    declarations: [Tab4Page]
+    declarations: [Tab4Page],
 })
 export class Tab4PageModule {
     constructor() {

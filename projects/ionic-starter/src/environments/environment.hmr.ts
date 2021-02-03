@@ -27,6 +27,6 @@ export const environment: Environment = {
         "CONTACT_INFO",
         "ONBOARDING",
         "DASHBOARD",
-        "SIGNIN"
-    ]
+        "SIGNIN",
+    ],
 };
