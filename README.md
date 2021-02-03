@@ -16,7 +16,7 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 ## TO DO
 ✅ Estructura mono-repo básica
 
-✅ Últimas versiones de paquetes para Ionic 5.5 + Angular 11.1,
+✅ Últimas versiones de paquetes para Ionic 5.31 + Angular 11.2,
 
 ✅ Reglas básicas del Linter,
 
@@ -72,9 +72,13 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 **✏️ Ejecutando la aplicación por primera vez:**
 
-1er) Paso (instalar todos los paquetes/dependencias de node.js):
+Antes que nada, recordar que debe acceder a la raíz del proyecto con el siguiente comando:
 ```
 cd projects/ionic-starter
+```
+
+1er) Paso (instalar todos los paquetes/dependencias de node.js):
+```
 npm install && npm install -g @ionic/cli@latest
 ```
 
