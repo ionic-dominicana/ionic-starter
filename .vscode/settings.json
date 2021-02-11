@@ -1,0 +1,11 @@
+{
+    "editor.tabSize": 4,
+    "css.validate": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "tailwindCSS.emmetCompletions": true
+}
