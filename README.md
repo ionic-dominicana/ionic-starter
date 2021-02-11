@@ -52,7 +52,7 @@ Invoca SDKs sobre iOS, Android, Electron, y la Web con un sólo código base. Op
 
 ✅ Archivos y configuraciones de fábrica (CLI) formateados y limpios con últimas reglas del ESLint/Prettier
 
-🔲 Incluir helpers para SCSS,
+✅ Integración de Tailwind para utilidades y componentes en CSS,
 
 🔲 Incluir utilidades comunes de Javascript basado en helpers y servicios,
 
