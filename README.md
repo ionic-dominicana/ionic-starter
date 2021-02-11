@@ -104,7 +104,7 @@ npm run start:android:live
 <p align="center">
   <img
       alt="Captura principal de la applicación"
-      src="https://public.3.basecamp.com/p/jAYjwFbKJFFWuT9XcwiwwVxW/upload/download/current-ui-app.png"
+      src="https://bc3-production-us-east-2.s3.us-east-2.amazonaws.com/ixdgxxuqmg1cz6puiayskekp5aqn?response-content-disposition=inline%3B%20filename%3D%22current-ui-app.png.png%22%3B%20filename%2A%3DUTF-8%27%27current-ui-app.png.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5PME4CT5QW2PJJU%2F20210211%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20210211T230123Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=83e1c67530890b2d92f6c9f233ddfdb0ebe2beb3737917a15b9ccf809fbcfe63"
       width="auto"
     />
 </p>
