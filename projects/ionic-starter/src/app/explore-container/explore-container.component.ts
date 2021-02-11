@@ -1,4 +1,7 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
+import { Plugins } from "@capacitor/core";
+
+const { Browser } = Plugins;
 
 @Component({
     selector: "app-explore-container",
@@ -6,5 +9,22 @@ import { Component, Input } from "@angular/core";
     styleUrls: ["./explore-container.component.scss"],
 })
 export class ExploreContainerComponent {
-    @Input() name: string;
+
+    /**
+     * DOM Props
+     */
+    @Input() public name: string;
+
+    /**
+     * Props
+     */
+    public projectUrl: string;
+
+    constructor() {
+        this.projectUrl = "https://github.com/1antares1/ionic-starter";
+    }
+
+    public async openPage(customUrl?: string): Promise<void> {
+        await Browser.open({ url: customUrl ?? this.projectUrl });
+    }
 }
